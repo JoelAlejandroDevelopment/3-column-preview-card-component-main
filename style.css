@@ -1,0 +1,122 @@
+body
+{
+  --color-box: hsl(31, 77%, 52%);
+  --color-general: hsl(0, 0%, 95%);
+  background-color: var(--color-general);
+}
+
+.article
+{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;}
+.section
+{
+  width: 100%;
+  padding: 40px;
+}
+
+.header
+{
+  margin-bottom: 50px;
+}
+
+.paragraph
+{
+  margin-bottom: 50px;
+}
+
+.title
+{
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+}
+.title:hover
+{
+  transform:  translate(20px);
+}
+
+
+.text-white
+{
+  color: var(--color-general);
+}
+
+
+.sedans
+{
+  --color-box: hsl(31, 77%, 52%);
+  background-color: var(--color-box);
+  border-radius: 10px 10px 0 0;
+}
+.suvs
+{
+  --color-box: hsl(184, 100%, 22%);
+  background-color: var(--color-box);
+}
+.luxury
+{
+  --color-box: hsl(179, 100%, 13%);
+  background-color: var(--color-box);
+  border-radius: 0 0 10px 10px;
+}
+
+.lexend
+{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: Lexend Deca;
+}
+
+@media screen and (min-width: 1240px) {
+  .article
+  {
+    width: 60vw; 
+    flex-wrap: nowrap;
+  }
+  .section
+  {
+    width: 33.3%;
+  }
+  .sedans
+  {
+    border-radius: 10px 0 0 10px;
+  }
+  .luxury
+  {
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+.button
+{
+  box-sizing: border-box;
+  color: var(--color-box);
+  background-color: var(--color-general);
+  border: solid 2px var(--color-general);
+  
+  text-decoration: none;
+  
+  display: block;
+  width: max-content;
+  
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.button:hover
+{
+  box-sizing: border-box;
+  color: var(--color-general);
+  background-color: var(--color-box);
+  border: solid 2px var(--color-general);
+}
+
+
+
+
+/* ---------------------------------------- */
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
