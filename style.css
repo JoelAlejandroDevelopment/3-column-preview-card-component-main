@@ -70,7 +70,7 @@ body
   font-family: Lexend Deca;
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 900px) {
   .article
   {
     width: 60vw; 
